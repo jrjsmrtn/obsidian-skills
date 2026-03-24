@@ -1,4 +1,6 @@
 ---
+# SPDX-FileCopyrightText: 2025 Georges Martin <jrjsmrtn@gmail.com>
+# SPDX-License-Identifier: MIT
 name: Obsidian CLI
 description: >
   This skill should be used when the user asks to "read an Obsidian note",
