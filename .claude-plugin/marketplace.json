@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-skills",
+  "owner": {
+    "name": "Georges Martin",
+    "email": "jrjsmrtn@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-skills",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:jrjsmrtn/obsidian-skills.git"
+      }
+    }
+  ]
+}
