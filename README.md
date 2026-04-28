@@ -1,13 +1,16 @@
+<!-- SPDX-FileCopyrightText: 2026 Georges Martin <jrjsmrtn@gmail.com> -->
+<!-- SPDX-License-Identifier: MIT -->
+
 # Obsidian CLI Skills
 
 A Claude Code plugin providing a skill for interacting with Obsidian vaults via the Obsidian CLI.
 
 ## Installation
 
-Install locally:
+Install via the [jrjsmrtn-skills](https://github.com/jrjsmrtn/jrjsmrtn-skills) marketplace:
 
 ```
-/plugin install /path/to/obsidian-skills
+/plugin install github:jrjsmrtn/jrjsmrtn-skills
 ```
 
 ## Included Skills
