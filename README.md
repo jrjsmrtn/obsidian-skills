@@ -7,11 +7,29 @@ A Claude Code plugin providing a skill for interacting with Obsidian vaults via 
 
 ## Installation
 
+### Claude Code
+
 Install via the [jrjsmrtn-skills](https://github.com/jrjsmrtn/jrjsmrtn-skills) marketplace:
 
 ```
 /plugin install github:jrjsmrtn/jrjsmrtn-skills
 ```
+
+### Mistral Vibe
+
+[Mistral Vibe](https://mistral.ai/products/vibe) scans `~/.vibe/skills/` as a flat directory. Bridge this plugin's nested layout via clone + symlink:
+
+```bash
+mkdir -p ~/.vibe/claude-skills ~/.vibe/skills
+git clone https://github.com/jrjsmrtn/obsidian-skills.git ~/.vibe/claude-skills/obsidian-skills
+cd ~/.vibe/skills
+for skill_dir in ~/.vibe/claude-skills/obsidian-skills/skills/*/; do
+  skill=$(basename "$skill_dir")
+  ln -s "../claude-skills/obsidian-skills/skills/${skill}" "${skill}"
+done
+```
+
+Update later: `git -C ~/.vibe/claude-skills/obsidian-skills pull`.
 
 ## Included Skills
 
