@@ -1,7 +1,5 @@
 ---
-# SPDX-FileCopyrightText: 2025 Georges Martin <jrjsmrtn@gmail.com>
-# SPDX-License-Identifier: MIT
-name: Obsidian CLI
+name: obsidian-cli
 description: >
   This skill should be used when the user asks to "read an Obsidian note",
   "search my vault", "create a note in Obsidian", "append to my daily note",
@@ -9,6 +7,10 @@ description: >
   "manage Obsidian plugins", "query a base", or any interaction with an
   Obsidian vault via the command line. Also triggered when the user mentions
   "obsidian", "vault", "daily note", or "Obsidian CLI".
+license: MIT
+metadata:
+  author: "Georges Martin <jrjsmrtn@gmail.com>"
+  version: "0.1.3"
 ---
 
 # Obsidian CLI

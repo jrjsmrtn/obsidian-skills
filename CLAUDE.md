@@ -14,7 +14,7 @@ This is a Claude Code plugin (`obsidian-skill`) that provides a skill for intera
 
 ## How It Works
 
-The plugin registers a single skill ("Obsidian CLI") that triggers when users mention Obsidian, vaults, daily notes, or ask to interact with an Obsidian vault. The skill provides Claude Code with knowledge of the `obsidian` CLI command syntax so it can execute vault operations.
+The plugin registers a single skill (`obsidian-cli`) that triggers when users mention Obsidian, vaults, daily notes, or ask to interact with an Obsidian vault. The skill provides Claude Code with knowledge of the `obsidian` CLI command syntax so it can execute vault operations.
 
 Key constraint: the Obsidian desktop app must be running (v1.12+ with CLI enabled) for any `obsidian` commands to work.
 
