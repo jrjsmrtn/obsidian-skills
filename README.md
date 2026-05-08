@@ -15,21 +15,21 @@ Install via the [jrjsmrtn-skills](https://github.com/jrjsmrtn/jrjsmrtn-skills) m
 /plugin install github:jrjsmrtn/jrjsmrtn-skills
 ```
 
-### Mistral Vibe
+### Other agents (Copilot CLI, Cursor, Codex, Gemini CLI, Antigravity, Goose, …)
 
-[Mistral Vibe](https://mistral.ai/products/vibe) scans `~/.vibe/skills/` as a flat directory. Bridge this plugin's nested layout via clone + symlink:
+Use the GitHub CLI (`gh` ≥ 2.90.0) — it auto-detects the agent host and installs into the right skills directory:
 
-```bash
-mkdir -p ~/.vibe/claude-skills ~/.vibe/skills
-git clone https://github.com/jrjsmrtn/obsidian-skills.git ~/.vibe/claude-skills/obsidian-skills
-cd ~/.vibe/skills
-for skill_dir in ~/.vibe/claude-skills/obsidian-skills/skills/*/; do
-  skill=$(basename "$skill_dir")
-  ln -s "../claude-skills/obsidian-skills/skills/${skill}" "${skill}"
-done
+```
+gh skill install jrjsmrtn/obsidian-skills
 ```
 
-Update later: `git -C ~/.vibe/claude-skills/obsidian-skills pull`.
+Pin a single skill or version: `gh skill install jrjsmrtn/obsidian-skills <skill-name>[@v<version>]`. Update later with `gh skill update --all`.
+
+For [Mistral Vibe](https://mistral.ai/products/vibe) (not yet in `gh skill`'s host detection), pass `--dir`:
+
+```
+gh skill install jrjsmrtn/obsidian-skills --dir ~/.vibe/skills
+```
 
 ## Included Skills
 
