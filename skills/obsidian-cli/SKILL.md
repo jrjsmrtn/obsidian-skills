@@ -7,10 +7,10 @@ description: >
   "manage Obsidian plugins", "query a base", or any interaction with an
   Obsidian vault via the command line. Also triggered when the user mentions
   "obsidian", "vault", "daily note", or "Obsidian CLI".
-license: MIT
 metadata:
   author: "Georges Martin <jrjsmrtn@gmail.com>"
-  version: "0.1.3"
+  version: "0.1.4"
+license: MIT
 ---
 
 # Obsidian CLI
