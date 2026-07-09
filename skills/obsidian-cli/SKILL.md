@@ -9,7 +9,7 @@ description: >
   "obsidian", "vault", "daily note", or "Obsidian CLI".
 metadata:
   author: "Georges Martin <jrjsmrtn@gmail.com>"
-  version: "0.1.4"
+  version: "0.1.5"
 license: MIT
 ---
 
@@ -170,6 +170,10 @@ For the complete command reference with all parameters and flags, consult `refer
 - **Wordcount**: `wordcount`
 - **Workspace**: `workspace`, `workspaces`, `workspace:save`, `workspace:load`, `workspace:delete`, `tabs`, `tab:open`, `recents`
 - **Developer**: `devtools`, `dev:debug`, `dev:cdp`, `dev:errors`, `dev:screenshot`, `dev:console`, `dev:css`, `dev:dom`, `dev:mobile`, `eval`
+
+## Validation
+
+Confirm the CLI is available and connected before relying on command output: run `obsidian version`. A successful version string means the desktop app is running with the CLI enabled; an error means the app is not running or the CLI is disabled (see Prerequisites).
 
 ## Additional Resources
 
