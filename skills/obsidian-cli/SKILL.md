@@ -9,7 +9,7 @@ description: >
   "obsidian", "vault", "daily note", or "Obsidian CLI".
 metadata:
   author: "Georges Martin <jrjsmrtn@gmail.com>"
-  version: "0.1.5"
+  version: "0.1.6"
 license: MIT
 ---
 

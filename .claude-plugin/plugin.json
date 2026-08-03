@@ -1,11 +1,16 @@
 {
   "name": "obsidian-skills",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Claude Code skill for interacting with Obsidian vaults via the Obsidian CLI",
   "author": {
     "name": "Georges Martin",
     "email": "jrjsmrtn@gmail.com"
   },
   "repository": "https://github.com/jrjsmrtn/obsidian-skills",
-  "keywords": ["obsidian", "vault", "cli", "notes"]
+  "keywords": [
+    "obsidian",
+    "vault",
+    "cli",
+    "notes"
+  ]
 }
